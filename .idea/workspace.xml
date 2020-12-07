@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/index.html" afterDir="false" />
+    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="BD was created.&#10;Add render() and HTML-templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606917055772</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BD was created.&#10;Add render() and HTML-templates">
+      <created>1607350797714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607350797714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,13 +81,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Before create BD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before create BD" />
+    <MESSAGE value="BD was created.&#10;Add render() and HTML-templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="BD was created.&#10;Add render() and HTML-templates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606920787530">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607350807722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606920787530" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607350807722" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606920782634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
