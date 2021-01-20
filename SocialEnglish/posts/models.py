@@ -10,12 +10,16 @@ class Group(models.Model):
     slug = models.SlugField(unique=True)
     description = models.TextField(max_length=400)
 
+    def __str__(self):
+        return self.title
+
 
 class Post(models.Model):
     text = models.TextField()
     pub_date = models.DateTimeField("date published", auto_now_add=True)
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="posts")
-    group = models.ForeignKey(Group, on_delete=models.CASCADE, related_name='posts', blank=True, null=True)
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="Посты")
+    group = models.ForeignKey(Group, on_delete=models.CASCADE, related_name='Групы', blank=True, null=True)
+
 
 
 class Meta:

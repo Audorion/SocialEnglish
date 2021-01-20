@@ -19,32 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="Added static and group">
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0002_auto_20201225_1825.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/group.html" afterDir="false" />
+    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="Add ru language, bootstrap addons, registration link, footer and head">
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/logged_out.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_change_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_change_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templatetags/_init_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templatetags/user_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/new_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/group/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,6 +79,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SocialEnglishProject\SocialEnglish\templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.views">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -215,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607414936965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added static and group">
+      <created>1609980266505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609980266505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add ru language, bootstrap addons, registration link, footer and head">
+      <created>1609980475268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609980475268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +251,7 @@
     <MESSAGE value="BD was created.&#10;Add render() and HTML-templates" />
     <MESSAGE value="Dir of templates in settings.py was fixed" />
     <MESSAGE value="Added static and group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added static and group" />
+    <MESSAGE value="Add ru language, bootstrap addons, registration link, footer and head" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ru language, bootstrap addons, registration link, footer and head" />
   </component>
 </project>
