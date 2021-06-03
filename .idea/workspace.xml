@@ -327,11 +327,11 @@
       <item itemvalue="Python.models" />
       <item itemvalue="Python.views" />
       <item itemvalue="Python tests.123" />
+      <item itemvalue="Python tests.Unittests in bin" />
+      <item itemvalue="Python tests.pytest in bin" />
       <item itemvalue="Python tests.Unittests for test.TestIndexPage.test_index_available" />
       <item itemvalue="Python tests.Unittests for test.TestPosts.test_form_not_valid" />
-      <item itemvalue="Python tests.Unittests in bin" />
       <item itemvalue="Python tests.Unittests" />
-      <item itemvalue="Python tests.pytest in bin" />
     </list>
     <recent_temporary>
       <list>
