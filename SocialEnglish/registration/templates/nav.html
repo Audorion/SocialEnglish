@@ -1,15 +1,60 @@
-<!DOCTYPE html>
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-    <a class="navbar-brand" href="/"><span style="color:red">Social</span>English</a>
-    <nav class="my-2 my-md-0 mr-md-3">
-        {% if user.is_authenticated %}
-        Пользователь: {{ user.username }}.
-        <a class="p-2 text-dark" href="{% url 'new_post' %}">Добавить запись</a>
-        <a class="p-2 text-dark" href="{% url 'password_change' %}">Изменить пароль</a>
-        <a class="p-2 text-dark" href="{% url 'logout' %}">Выйти</a>
-        {% else %}
-        <a class="p-2 text-dark" href="{% url 'login' %}">Войти</a> |
-        <a class="p-2 text-dark" href="{% url 'signup' %}">Регистрация</a>
-        {% endif %}
-    </nav>
-    </nav>
+ {% load static %}
+<!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="nikki-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="nikkiNav">
+
+                        <!-- Nav brand -->
+                        <a href="{% url 'index' %}" class="nav-brand"><img src="{% static 'bootstrap/dist/img/core-img/logo.png' %}" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="{% url 'index' %}">Home</a></li>
+                                    <li><a href="{% url 'about-us' %}">About</a></li>
+                                    <li><a href="{% url 'terms' %}">Contact</a></li>
+                                </ul>
+
+                                <!-- Search Form -->
+                                <div class="search-form">
+                                    <form action="#" method="get">
+                                        <input type="search" name="search" class="form-control" placeholder="Search and hit enter...">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/engarienglish/" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS Feed"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->

@@ -4,23 +4,15 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 
-# Create your models here.
-class Group(models.Model):
-    title = models.CharField(max_length=20)
-    slug = models.SlugField(unique=True)
-    description = models.TextField(max_length=400)
-
-    def __str__(self):
-        return self.title
-
-
 class Post(models.Model):
+    title = models.CharField(max_length=100, default='default title')
+    slug = models.TextField(default='emptyslug', unique=True)
     text = models.TextField()
     pub_date = models.DateTimeField("date published", auto_now_add=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="Посты")
-    group = models.ForeignKey(Group, on_delete=models.CASCADE, related_name='Групы', blank=True, null=True)
+    image = models.ImageField(null=True, blank=True)
 
-
-
-class Meta:
-    ordering = ['-pub_date']
+    class Meta:
+        ordering = ['-pub_date']
+        verbose_name = 'Пост'
+        verbose_name_plural = 'Посты'

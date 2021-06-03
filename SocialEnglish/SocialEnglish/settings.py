@@ -26,6 +26,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+
+SITE_ID = 3
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.flatpages',
+    'bootstrap_pagination',
+
 ]
 
 MIDDLEWARE = [
@@ -47,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
 ]
 
 ROOT_URLCONF = 'SocialEnglish.urls'
@@ -123,8 +131,12 @@ LOGIN_URL = "/auth/login/"
 LOGIN_REDIRECT_URL = "index"
 #LOGOUT_REDIRECT_URL = "index"
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media'
+
 #  подключаем движок filebased.EmailBackend
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 # указываем директорию, в которую будут складываться файлы писем
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+
 

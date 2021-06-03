@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,28 +22,126 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="Add ru language, bootstrap addons, registration link, footer and head">
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_change_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templatetags/_init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/registration/templatetags/user_filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/new_post.html" afterDir="false" />
+    <list default="true" id="12306b62-0d94-4dd3-9a7e-14212cd2b202" name="Default Changelist" comment="Add registrations, login valid and stable user system. &#10;You can create new post easily.&#10;Add some style.">
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/225a8da2260b0e250c57ec0cc4827158.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Danzo_Shimura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/GettyImages-468945589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Johny_Silverhand_2077_Samurai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Kakashi_Hatake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Kinopoisk.ru-Mulan-3545151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Qe8pCxD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/i_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/Снимок_экрана_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/загруженное_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/media/загруженное_2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0003_auto_20210120_1742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0004_auto_20210213_1832.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0005_post_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0006_auto_20210214_0016.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0007_remove_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0008_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/migrations/0009_auto_20210214_0046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/posts/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/flatpages/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/paginator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocialEnglish/templates/user_acc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/SocialEnglish/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/isAttached.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/finalPropName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/static/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/tests.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialEnglish/registration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/registration/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/group.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialEnglish/templates/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/SocialEnglish/templates/new_post.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,35 +179,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SocialEnglish/posts/tests.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SocialEnglishProject\SocialEnglish\templates" />
+      <recent name="D:\SocialEnglishProject\SocialEnglish\posts\static\bootstrap\dist" />
+      <recent name="D:\SocialEnglishProject\SocialEnglish\posts\static\bootstrap\dist\css" />
+      <recent name="D:\SocialEnglishProject\SocialEnglish\posts\static\bootstrap\dist\vendor" />
+      <recent name="D:\SocialEnglishProject\SocialEnglish\posts\static\bootstrap\dist\vendor\bootstrap\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
-    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialEnglishProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SocialEnglish/posts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SocialEnglish/posts/admin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test.TestIndexPage.test_index_available">
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SocialEnglishProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,27 +205,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SocialEnglish/posts/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SocialEnglishProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SocialEnglish/SocialEnglish" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SocialEnglish/SocialEnglish/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,12 +234,112 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="123" type="tests" factoryName="Unittests">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\SocialEnglishProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/SocialEnglish/posts/tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.TestIndexPage.test_index_available" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SocialEnglish/posts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestIndexPage.test_index_available&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.TestPosts.test_form_not_valid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SocialEnglish/posts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPosts.test_form_not_valid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in bin" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\SocialEnglishProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestPosts.test_form_not_valid&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in bin" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="SocialEnglishProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="D:\SocialEnglishProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.models" />
+      <item itemvalue="Python.views" />
+      <item itemvalue="Python tests.123" />
+      <item itemvalue="Python tests.Unittests for test.TestIndexPage.test_index_available" />
+      <item itemvalue="Python tests.Unittests for test.TestPosts.test_form_not_valid" />
+      <item itemvalue="Python tests.Unittests in bin" />
+      <item itemvalue="Python tests.Unittests" />
+      <item itemvalue="Python tests.pytest in bin" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test.TestIndexPage.test_index_available" />
+        <item itemvalue="Python tests.Unittests for test.TestPosts.test_form_not_valid" />
+        <item itemvalue="Python tests.Unittests" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.models" />
-        <item itemvalue="Python.admin" />
-        <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609980475268</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add registrations, login valid and stable user system. &#10;You can create new post easily.&#10;Add some style.">
+      <created>1611153404571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611153404571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +423,7 @@
     <MESSAGE value="Dir of templates in settings.py was fixed" />
     <MESSAGE value="Added static and group" />
     <MESSAGE value="Add ru language, bootstrap addons, registration link, footer and head" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ru language, bootstrap addons, registration link, footer and head" />
+    <MESSAGE value="Add registrations, login valid and stable user system. &#10;You can create new post easily.&#10;Add some style." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add registrations, login valid and stable user system. &#10;You can create new post easily.&#10;Add some style." />
   </component>
 </project>
